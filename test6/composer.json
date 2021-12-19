@@ -1,0 +1,14 @@
+{
+    "name": "foo/soaptest",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "CalcSdk"
+        }
+    ],
+    "require": {
+        "foo/calcsdk": "@dev",
+        "league/csv": "^9.7"
+    }
+}

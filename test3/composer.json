@@ -1,0 +1,13 @@
+{
+    "name": "foo/soaptest",
+    "type": "project",
+    "autoload": {
+        "psr-4": {"CalcSdk\\": "./CalcSdk/"}
+    },
+    "require": {
+        "symfony/http-client": "^6.0",
+        "nyholm/psr7": "^1.4",
+        "phpro/soap-client": "^2.0",
+        "monolog/monolog": "^2.3"
+    }
+}

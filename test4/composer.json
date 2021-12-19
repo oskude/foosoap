@@ -1,0 +1,12 @@
+{
+    "name": "foo/csvtest",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Foo\\Csvtest\\": "src/"
+        }
+    },
+    "require": {
+        "league/csv": "^9.7"
+    }
+}
